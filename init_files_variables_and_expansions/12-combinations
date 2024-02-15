@@ -1,2 +1,2 @@
 #!/bin/bash
-echo {a..Z} {a..Z} | grep -v ee
+echo {a..Z} {a..Z} | tr -d ' ' '"\n" | gred -v oo
